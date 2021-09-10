@@ -70,6 +70,7 @@ header {
     justify-content: center;
     background-color: rgb(25, 25, 97);
     align-content: flex-end;
+    border: 5px black solid;
 
 
 }

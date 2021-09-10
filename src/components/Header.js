@@ -4,8 +4,8 @@ import React from "react";
 function Header() {
   return (
     <header className="header">
-            <section class="myname">Tyler P Thompson</section>
-            <section class="menu">
+            <section className="myname">Tyler P Thompson</section>
+            <section className="menu">
                 <div>SKILLS</div>
                 <div>PROJECTS</div>
                 <div>CONTACT</div>
