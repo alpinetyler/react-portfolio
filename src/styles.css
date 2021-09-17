@@ -37,6 +37,7 @@ header {
     position: fixed;
     border: 1px black solid;
     z-index: 1;
+    top: 0;
 }
 
 .menu {
@@ -59,11 +60,11 @@ header {
 }
 
 .top {
-    width: 100%;
+    width: 1300px;
     height: 590px;
     font-size: 50px;
-    padding-top: 100px;
-    /* border: 1px black solid; */
+    padding-top: 50px;
+    /* border: 10px red solid; */
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -74,13 +75,13 @@ header {
 }
 
 .picture {
-    /* border: black 2px solid; */
+    border: black 2px solid;
     width: 450px;
     height: 450px;
     margin: 35px 0 0 0;
-    animation: fadeInAnimation ease 3s;
+    /* animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;  */
  
 
 }
@@ -95,14 +96,14 @@ header {
 
 
 .contactInfo {
-    /* border: black 2px solid; */
+    border: black 2px solid;
     width: 450px;
     height: 450px;
     margin: 35px 0 0 0;
     background-color: white;
-    padding: 70px;
-    font-size: 32px;
-    animation: fadeInAnimation ease 3s;
+    padding: 0px;
+    font-size: 28px;
+    animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
     

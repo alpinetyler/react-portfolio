@@ -3,7 +3,7 @@ import React from "react";
 
 function Top() {
     return (
-        <section class="top">
+        <section className="top">
             <section class="picture">
                 <img src="../images/BW.jpg" alt="pic of Tyler" />
             </section>
