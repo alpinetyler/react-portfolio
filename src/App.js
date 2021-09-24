@@ -7,11 +7,8 @@ import './styles.css';
 
 function App() {
   return (
-<<<<<<< HEAD
+
     <div>
-=======
-    <div className="wrapper">
->>>>>>> dfb1e91228b81890713bf016ddea34f9bddd560b
       <Header />
       <Top />
       <Footer />

@@ -1,15 +1,13 @@
 import React from "react";
+import tylerpic from '../images/BW.jpg'
+
 
 
 function Top() {
     return (
         <section className="top">
-<<<<<<< HEAD
-            <section class="picture">
-=======
             <section className="picture">
->>>>>>> dfb1e91228b81890713bf016ddea34f9bddd560b
-                <img src="../images/BW.jpg" alt="pic of Tyler" />
+                <img src={tylerpic} alt="Portrait of Tyler" />
             </section>
             <section className="contactInfo">
                 <span className="headingName">Tyler Thompson</span>

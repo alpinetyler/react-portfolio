@@ -71,21 +71,22 @@ header {
     justify-content: center;
     background-color: rgb(25, 25, 97);
     align-content: flex-end;
-    border: 5px black solid;
-
-
+    background-image: url("images/codeImage.jpg");
+   
+    
+    
 }
-
+.socialLinks{
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+    bottom: 0;
+}
 .picture {
-    border: black 2px solid;
+    /* border: black 2px solid; */
     width: 450px;
-    height: 450px;
-    margin: 35px 0 0 0;
-    /* animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards;  */
- 
-
+    height: 500px;
+    margin: 35px 0 0 0;  
 }
 
 .picture img {
@@ -93,53 +94,64 @@ header {
     height: 100%;
     margin: auto;
     display: block;
+    animation: pictureSlideIn 2s;
+  
     
 }
-
 
 .contactInfo {
-    border: black 2px solid;
+    /* border: red 2px solid; */
     width: 450px;
-    height: 450px;
+    height: 500px;
     margin: 35px 0 0 0;
     background-color: white;
-    padding: 0px;
+    padding: 75px;
     font-size: 28px;
-    animation: fadeInAnimation ease 5s;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+    text-align: left;
+    line-height: 1em; 
+    animation: infoSlideIn 2s;
+    
     
 }
 
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-     } 
-}
+@keyframes pictureSlideIn {
+    from {margin-left: -200px;
+    opacity: 10%;}
+    to {margin-left: 0px;
+    opacity: 100%;}
+  }
+
+  @keyframes infoSlideIn {
+    from {  margin-right: -200px;
+            opacity: 10%;}
+    to {margin-right: 0px;
+        opacity: 100%;}
+  }
 
 
 
 
 .headingName {
+    
     font-size: 30px;
 }
 
 .tagline {
     font-size: 18px;
+    
 }
 
 .textLine {
 
     font-size: 13px;
+    
 
 }
 
 .heading {
     font-size: 15px;
     font-weight: bold;
+    
 }
 
 .intro {
