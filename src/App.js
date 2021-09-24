@@ -1,8 +1,9 @@
 import React from "react";
 import './App.css';
-import Header from './components/Header'
-import Top from './components/Top'
-import Footer from './components/Footer'
+import Header from './components/Header';
+import Top from './components/Top';
+import Footer from './components/Footer';
+import SocialMedia from './components/SocialMedia';
 import './styles.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div>
       <Header />
       <Top />
+      <SocialMedia />
       <Footer />
 
     </div>

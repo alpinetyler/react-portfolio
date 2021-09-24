@@ -76,12 +76,36 @@ header {
     
     
 }
-.socialLinks{
-    width: 500px;
-    height: 100px;
-    background-color: blue;
-    bottom: 0;
+
+.socialMedia{
+    width: 1300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
 }
+
+.socialMediaBlock{
+    width: 900px;
+    height: 75px;
+    line-height: 75px;
+    background-color: rgb(25, 25, 97);
+    color: white;
+    animation: slideDown 2s;
+
+
+}
+
+.social-icon {
+    padding: 0 10px;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .social-icon:hover {
+    color: #6a8192;
+  }
+
+
 .picture {
     /* border: black 2px solid; */
     width: 450px;
@@ -125,6 +149,13 @@ header {
     from {  margin-right: -200px;
             opacity: 10%;}
     to {margin-right: 0px;
+        opacity: 100%;}
+  }
+
+  @keyframes slideDown {
+    from {  margin-top: -50px;
+            opacity: 10%;}
+    to {margin-top: 0px;
         opacity: 100%;}
   }
 
@@ -348,7 +379,7 @@ footer {
   width: 100%;
   height: 2.5rem;  
   border: 1px black solid;
-  background-color:rgb(36, 69, 102);
+  background-color:rgb(25, 25, 97);;
   color: white;
   padding-left: 40px;
   padding-top: 20px;
