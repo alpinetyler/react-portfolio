@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,8 +19,8 @@ a {
 
 div {
     /* border: 1px black solid; */
-    height: 50px;
-    width: 25%;
+    /* height: 50px; */
+    /* width: 25%; */
     text-align: center;
     line-height: 50px;
     font-size: 14px;
@@ -42,11 +42,12 @@ header {
 }
 
 .menu {
-    width: 60%;
+    width: 40%;
     height: 70px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    margin-right: 100px;
 }
 
 .myname {
@@ -61,7 +62,7 @@ header {
 }
 
 .top {
-    width: 1300px;
+    width: 100%;
     height: 590px;
     font-size: 50px;
     padding-top: 50px;
@@ -78,7 +79,7 @@ header {
 }
 
 .socialMedia{
-    width: 1300px;
+    width: 100%;
     /* background-color: red; */
     display: flex;
     justify-content: center;
@@ -91,6 +92,7 @@ header {
     background-color: rgb(25, 25, 97);
     color: white;
     animation: slideDown 2s;
+    position: absolute;
 
 
 }
@@ -186,21 +188,25 @@ header {
 }
 
 .intro {
+    width: 100%;
     height: 350px;
-    /* border: 1px solid black; */
+    /* border: 3px solid red; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-
-
+    margin-top: 100px;
 }
 
-.textBlurb {
-    width: 500px;
+.intro-heading{
+    font-size: 2em;
+}
+
+.textblurb {
+    width: 50%;
     font-size: 18px;
-    margin: 0 0 50px 0;
     text-align: center;
+    line-height: 1.75em;
 }
 
 .skills {
@@ -211,7 +217,9 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(35, 35, 121);
+    /* background-color: rgb(35, 35, 121); */
+    background-image: url("images/codeImage.jpg");
+    margin-bottom: 100px;
     
 
 }
@@ -227,6 +235,7 @@ header {
 .skillsTitle {
     width: 100%;
     height: 100px;
+    padding-top: 0px;
     background-color: rgb(25, 25, 97);
     color: white;
     font-size: 20px;
@@ -257,14 +266,15 @@ header {
 
 @keyframes createBox {
     from{
-        transform: scale(0);
+        width: 0px;
+        
     }
 
     to {
-        transition-property: width, height;
-        transform: scale(1);
+      
+         width: 400px;
 
-    }
+     }
 }
 
 .row {
@@ -409,4 +419,3 @@ footer {
         font-size: 8px;
     }
 }
-

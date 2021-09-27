@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Top from './components/Top';
 import Footer from './components/Footer';
 import SocialMedia from './components/SocialMedia';
+import Greeting from './components/Greeting';
+import Skills from './components/Skills';
 import './styles.css';
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Header />
       <Top />
       <SocialMedia />
+      <Greeting />
+      <Skills />
       <Footer />
 
     </div>
