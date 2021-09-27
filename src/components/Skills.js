@@ -9,16 +9,16 @@ function Skills() {
            
            <section className='skills'>
            <section className="row">
-                <section className="skillsItem">Javascript</section>
-                <section className="skillsItem">NodeJS</section>
+                <section className="skillsItem ">Javascript</section>
+                <section className="skillsItem ">NodeJS</section>
             </section>  
             <section className="row">  
-                <section className="skillsItem">React</section>
-                <section className="skillsItem">Redux</section>
+                <section className="skillsItem ">React</section>
+                <section className="skillsItem ">Redux</section>
             </section> 
             <section className="row">
-                <section className="skillsItem">PostgrSQL</section>
-                <section className="skillsItem">PHP</section>
+                <section className="skillsItem ">PostgrSQL</section>
+                <section className="skillsItem ">PHP</section>
             </section>
            </section>
             

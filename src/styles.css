@@ -249,8 +249,7 @@ header {
 }
 
 .skillsItem {
-    /* animation-duration: 0.75s; */
-    animation: createBox 1s;
+    animation: createBox 3s;
     width: 400px;
     height: 80px;
     display: flex;
