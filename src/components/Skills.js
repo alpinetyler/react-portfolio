@@ -4,10 +4,11 @@ import React from "react";
 
 function Skills() {
     return (
-        <section className="skills">
+        <section >
             <section className="skillsTitle">SKILLS</section>
-            {/* <section className="skillsWrapper">  */}
-            <section className="row">
+           
+           <section className='skills'>
+           <section className="row">
                 <section className="skillsItem">Javascript</section>
                 <section className="skillsItem">NodeJS</section>
             </section>  
@@ -19,7 +20,9 @@ function Skills() {
                 <section className="skillsItem">PostgrSQL</section>
                 <section className="skillsItem">PHP</section>
             </section>
-         {/* </section>   */}
+           </section>
+            
+         
         </section>
     );
 }

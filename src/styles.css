@@ -210,16 +210,17 @@ header {
 }
 
 .skills {
-    height: 485px;
+    height: 350px;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    /* background-color: rgb(35, 35, 121); */
-    background-image: url("images/codeImage.jpg");
+    background-color: rgb(35, 35, 121);
+    /* background-image: url("images/codeImage.jpg"); */
     margin-bottom: 100px;
+    padding: 0px;
     
 
 }
@@ -298,14 +299,6 @@ header {
 
 
 }
-
-/* .skillsWrapper {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-} */
 
 .projectTitle {
     width: 100%;
