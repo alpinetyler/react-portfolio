@@ -20,7 +20,7 @@ function App() {
       <Greeting />
       <Skills />
       <Projects />
-      <Contact />>
+      <Contact />
       <Footer />
 
     </div>
