@@ -248,7 +248,55 @@ header {
     
 }
 
-.skillsItem {
+.skillsItem1 {
+    animation: createBox 1s;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color:rgb(36, 69, 102);
+    color: white;
+}
+
+.skillsItem2 {
+    animation: createBox 1.5s;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color:rgb(36, 69, 102);
+    color: white;
+}
+
+.skillsItem3 {
+    animation: createBox 2s;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color:rgb(36, 69, 102);
+    color: white;
+}
+
+.skillsItem4 {
+    animation: createBox 2.5s;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color:rgb(36, 69, 102);
+    color: white;
+}
+
+.skillsItem5 {
     animation: createBox 3s;
     width: 400px;
     height: 80px;
@@ -258,23 +306,29 @@ header {
     font-weight: bold;
     background-color:rgb(36, 69, 102);
     color: white;
-    
+}
 
-
+.skillsItem6 {
+    animation: createBox 3.5s;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color:rgb(36, 69, 102);
+    color: white;
 }
 
 
 @keyframes createBox {
     from{
-        width: 0px;
-        
+        width: 0px;   
     }
 
     to {
-      
-         width: 400px;
-
-     }
+        width: 400px;
+    }
 }
 
 .row {

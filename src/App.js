@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import SocialMedia from './components/SocialMedia';
 import Greeting from './components/Greeting';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import './styles.css';
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <SocialMedia />
       <Greeting />
       <Skills />
+      <Projects />
+      <Contact />>
       <Footer />
 
     </div>
